@@ -14,13 +14,13 @@ function toggleswitch() {
     trac[0].style.background = "#404040";
     svg1[0].style.width = "0px";
     svg1[0].style.height = "0px";
-    svg2[0].style.width = "12px";
-    svg2[0].style.height = "16px";
+    svg2[0].style.width = "10px";
+    svg2[0].style.height = "14px";
     // console.log(getElementsByClassName("circle"));
     // // document.getElementsByClassName("circle").style.transform("translateX(30px)");
     svg2[0].style.display = "block";
     svg2[0].style.transform = "scaleX(1) scaleY(1)";
-    circle1[0].style.transform = "translateX(17px)";
+    circle1[0].style.transform = "translateX(20px)";
     }
     else if(lightmode) {
         lightmode = false;
@@ -30,8 +30,8 @@ function toggleswitch() {
     let svg2 = document.getElementsByClassName('svg2');
     svg2[0].style.width = "0px";
     svg2[0].style.height = "0px";
-    svg1[0].style.width = "18px";
-    svg1[0].style.height = "18px"
+    svg1[0].style.width = "15px";
+    svg1[0].style.height = "15px"
     svg2[0].style.transform = "scaleX(0) scaleY(0)";
     circle1[0].style.background = "skyblue";
     trac[0].style.background = "skyblue";
